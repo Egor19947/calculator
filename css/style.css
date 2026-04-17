@@ -1,0 +1,41 @@
+#calculator{
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #000;
+}
+
+/* .input{
+    width: 100%;
+    padding: 40px 20px 20px 20px;
+    font-size: 22px;
+    text-align: right;
+    color: #fcfcfc;
+} */
+
+.field{
+    padding: 40px;
+    color: #fff;
+    font-size: 26px;
+    text-align: right;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.button{
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    color: #fcfcfc;
+    border: none;
+    border-radius: 50%;
+    font-size: 22px;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+
